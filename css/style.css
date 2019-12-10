@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=El+Messiri&display=swap');
+
+body {
+  margin: 1px;
+  font-family: 'El Messiri';
+  background-color: rgb(255, 255, 255);
+}
+
+#bakgrund {
+  background-image: url("../img/champriven.jpg");
+  height: auto;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+#champriven {
+  display: block;
+  background-image: url("../img/prestigeriven.png");
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+#contact {
+  color: rgb(24, 42, 18);
+}
+
+.topictext {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  height: auto;
+  width: fit-content;
+}
+
+.buttons {
+  height: auto;
+  width: fit-content;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.buttons:hover {
+  transform: scale(1.2);
+  transition: .4s;
+}
+
+#sectionR {
+  font-size: 100px;
+  color: rgb(0, 0, 0);
+}
+
+#sectionW {
+  font-size: 100px;
+  color: rgb(0, 0, 0);
+}
+
+#contact {
+  margin-top: 3vh;
+  color: rgb(250, 230, 150);
+  font-size: 3vh
+}
+
+.länkar {
+  padding-top: 10px;
+}
