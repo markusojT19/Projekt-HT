@@ -52,7 +52,7 @@ body {
   transition: .4s;
 }
 
-#bilder {
+.bilder {
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
   border: 5px;
   border-radius: 10px;
