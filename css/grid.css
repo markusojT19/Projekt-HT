@@ -8,7 +8,7 @@
   margin-right: auto;
 }
 
-header {
+#header1 {
   grid-column: 1/-1;
   grid-row: 1/2;
   text-align: center;
@@ -74,7 +74,7 @@ header {
 }
 
 @media screen and (max-aspect-ratio: 3/2) {
-  header {
+  #header1 {
     grid-column: 1/-1;
     grid-row: 1/2;
   }
@@ -124,3 +124,5 @@ header {
     grid-row: 10/11;
   }
 }
+
+/*Nästa hemsida (abilities)*/
