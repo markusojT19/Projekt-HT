@@ -36,13 +36,6 @@
   height: auto;
 }
 
-#logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
-}
-
 .topictext {
   display: block;
   margin-left: auto;
@@ -84,7 +77,7 @@
   margin-top: 3vh;
   color: rgb(250, 230, 150);
   font-size: 2vh;
-  text-shadow: 10px 3px rgba(0, 0, 0, 0.9);
+  text-shadow: 5px 3px rgba(0, 0, 0, 0.9);
   color: rgb(255, 255, 255);
 }
 
@@ -116,4 +109,9 @@
   margin-left: 2vw;
   margin-right: 50vw;
   color: rgb(220, 220, 220)
+}
+
+#ytbild {
+  height: 30vh;
+  width: 30vw;
 }
