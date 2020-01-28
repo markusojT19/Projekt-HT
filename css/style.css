@@ -85,6 +85,24 @@
   padding-top: 10px;
 }
 
+#knapp {
+  margin-left: 1vw;
+  margin-right: 1vw;
+  height: 10vh;
+  width: 98vw;
+  font-size: 2rem;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.6;
+  transition: 0.3s;
+  border-color: transparent;
+}
+
+#knapp:hover {
+  opacity: 1;
+  border-radius: 50px;
+  border-color: transparent;
+}
+
 /*Nästa hemsida (abilities)*/
 #body2 {
   margin: 1px;
