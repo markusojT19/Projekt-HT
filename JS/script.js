@@ -1,4 +1,4 @@
-//Button to remove the Riven Lore text//
+//Knapp för att ta bort "riven lore" texten//
 
 function myFunction() {
   var x = document.getElementById("brödtext");

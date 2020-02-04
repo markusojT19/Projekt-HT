@@ -6,6 +6,7 @@
   background-color: rgb(0, 0, 0);
 }
 
+/*Texten "Riven lore"*/
 #brödtext {
   font-size: 2.5vh;
   color: rgb(255, 255, 255);
@@ -20,6 +21,7 @@
   text-align: center;
 }
 
+/*Bakgrunden längst ned på sidan*/
 #bakgrund {
   background-image: url("../img/champrivencomp2.jpg");
   height: auto;
@@ -29,6 +31,7 @@
   background-position: top;
 }
 
+/*Bilden högst upp på sidan*/
 #start {
   display: block;
   background-size: cover;
@@ -36,6 +39,7 @@
   height: auto;
 }
 
+/*Endast texten ovanför mina sections*/
 .topictext {
   display: block;
   margin-left: auto;
@@ -47,6 +51,7 @@
   text-shadow: 6px 6px rgba(0, 0, 0, 0.5);
 }
 
+/*Texten + bilderna i mina sections*/
 .buttons {
   height: auto;
   width: fit-content;
@@ -54,12 +59,16 @@
   margin-left: auto;
   margin-right: auto;
   transition: .4s;
+  padding-top: 10px;
 }
 
+/*Endast bilderna i mina sections*/
 .bilder {
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
   border: 5px;
   border-radius: 10px;
+  width: 23vw;
+  height: 12vw;
 }
 
 .buttons:hover {
@@ -73,6 +82,7 @@
   text-shadow: 7px 7px rgba(0, 0, 0, 0.5);
 }
 
+/*Style för min contact del längst ned till vänster på sidan*/
 #contact {
   margin-top: 3vh;
   color: rgb(250, 230, 150);
@@ -81,10 +91,7 @@
   color: rgb(255, 255, 255);
 }
 
-.länkar {
-  padding-top: 10px;
-}
-
+/*Min "remove text knapp"*/
 #knapp {
   margin-left: 1vw;
   margin-right: 1vw;
@@ -103,7 +110,7 @@
   border-color: transparent;
 }
 
-/*Nästa hemsida (abilities)*/
+/*Style till mina andra sidor*/
 #body2 {
   margin: 1px;
   font-family: 'El Messiri';
@@ -117,19 +124,16 @@
   text-shadow: 0.5vh 0.5vh rgba(255, 255, 255, 0.3);
 }
 
+/*Rubrikerna*/
 .sectionrubriker {
   margin-left: 4vw;
   font-size: 5vh;
   color: rgb(220, 220, 220)
 }
 
+/*Själva texten*/
 .sections {
   margin-left: 2vw;
   margin-right: 50vw;
   color: rgb(220, 220, 220)
-}
-
-#ytbild {
-  height: 30vh;
-  width: 30vw;
 }
